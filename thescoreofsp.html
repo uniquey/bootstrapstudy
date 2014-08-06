@@ -30,7 +30,7 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
-<template name="scorepage">
+<template name="thescoreofsp">
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -41,25 +41,35 @@
 			</div>
 			<ul class="breadcrumb">
 				<li>
-					<a href="#">专家库</a> <span class="divider">/</span>
+					<a href="specialistlist">专家库</a> <span class="divider">/</span>
 				</li>
 				<li>
-					<a href="#">医院库</a> <span class="divider">/</span>
+					<a href="allhospital">医院库</a> <span class="divider">/</span>
 				</li>
 				<li class="active">
-					<a href="http://www.layoutit.com/build#">评分库</a>
+					<a href="thescore">评分库</a>
 				</li>
 			</ul>
 			<h3 class="text-center">
-				专家评分页面
+				专家评分页面结果
 			</h3>
-			<h2>
-				XX科室
-			</h2>
-			
-			<p>
-				<a class="btn" href="#"></a>
-			</p>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<h3>
+						X医院XX科室
+					</h3>
+					<p>
+						平均分：90
+					</p>
+					<div>
+						评分人数：999
+					</div>
+					
+					<p>
+						<a class="btn" href="#">其他专科评分结果 »</a>
+					</p>
+				</div>
+			</div>
 			<table class="table table-bordered">
 				<thead>
 					<tr>
@@ -67,79 +77,112 @@
 							#
 						</th>
 						<th>
-							评分
+							XX
 						</th>
 						<th>
-							#
+							分数
 						</th>
 						<th>
-							评分
+							评分者
 						</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td>
-							XX医院
+							1
 						</td>
 						<td>
+							a
 						</td>
 						<td>
-							XX医院
+							99
 						</td>
 						<td>
+							Default
 						</td>
 					</tr>
 					<tr class="active">
 						<td>
-							<span>XX医院</span>
+							2
 						</td>
 						<td>
+							b
 						</td>
 						<td>
-							<span>XX医院</span>
+							98
 						</td>
 						<td>
+							Approved
 						</td>
 					</tr>
 					<tr class="success">
 						<td>
-							<span>XX医院</span>
+							3
 						</td>
 						<td>
+							Tc9
 						</td>
 						<td>
-							<span>XX医院</span>
+							99
 						</td>
 						<td>
+							Declined
 						</td>
 					</tr>
 					<tr class="warning">
 						<td>
-							<span>XX医院</span>
+							4
 						</td>
 						<td>
+							d9
 						</td>
 						<td>
-							<span>XX医院</span>
+							98
 						</td>
 						<td>
+							Pending
 						</td>
 					</tr>
 					<tr class="danger">
 						<td>
-							<span>XX医院</span>
+							5
 						</td>
 						<td>
+							e
 						</td>
 						<td>
-							<span>XX医院</span>
+							99
 						</td>
 						<td>
+							Call in to confirm
 						</td>
 					</tr>
 				</tbody>
-			</table> <button type="button" class="btn btn-default">确认</button>
+			</table>
+			<ul class="pagination">
+				<li>
+					<a href="#">Prev</a>
+				</li>
+				<li>
+					<a href="#">1</a>
+				</li>
+				<li>
+					<a href="#">2</a>
+				</li>
+				<li>
+					<a href="#">3</a>
+				</li>
+				<li>
+					<a href="#">4</a>
+				</li>
+				<li>
+					<a href="#">5</a>
+				</li>
+				<li>
+					<a href="#">Next</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>

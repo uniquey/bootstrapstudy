@@ -2,9 +2,9 @@ Router.configure
 	layoutTemplate:'layout'
 
 Router.map ->
-	@route 'signin',
+	@route 'homepage',
 		path:'/'
-	@route 'signup'
-	@route 'specialistlist'
-	@route 'allhospital'
-	@route 'thescore'
+	@route 'aug4'
+	@route 'aug5'
+	@route 'aug6'
+	@route 'first'
